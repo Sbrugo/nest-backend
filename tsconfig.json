@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2023",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "noFallthroughCasesInSwitch": false,
+    "baseUrl": "./src",
+    "paths": {
+      "@src/*": ["*"],
+      "@auth/*": ["modules/auth/*"],
+      "@controllers/*": ["modules/controllers/*"],
+      "@services/*": ["modules/services/*"],
+      "@models/*": ["modules/models/*"],
+      "@dto/*": ["modules/dto/*"],
+      "@exceptions/*": ["modules/exceptions/*"]
+    },
+    "strict": true
+  }
+}
